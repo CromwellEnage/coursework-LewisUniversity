@@ -32,7 +32,9 @@ public class Assignment01 {
 
 		MasterAverager master_averager = new MasterAverager();
 
+		System.out.println("Test average = " + test_averager.compute());
 		master_averager.add(test_averager);
+		System.out.println("Assignment average = " + assignment_averager.compute());
 		master_averager.add(assignment_averager);
 		System.out.println("Master average = " + master_averager.compute());
 	}
